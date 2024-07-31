@@ -8,21 +8,49 @@ Welcome to the Python Basics documentation. For a comprehensive overview of Pyth
 https://lake-particle-09b.notion.site/Python-047328eaab94424c8e51e3015df260a9
 
 ## Overview
+# Python Machine Learning Model Training
 
-This repository contains resources and examples to help you get started with Python.
+This guide walks you through the steps to set up your Python environment, install the necessary packages, and train a machine learning model using the Iris dataset.
 
-## Installation
+## Table of Contents
+- [Prerequisites](#prerequisites)
+- [Environment Setup](#environment-setup)
+  - [Install Python and pip](#install-python-and-pip)
+  - [Create a Virtual Environment](#create-a-virtual-environment)
+  - [Install Required Libraries](#install-required-libraries)
+- [Training a Machine Learning Model](#training-a-machine-learning-model)
+  - [Import Necessary Libraries](#import-necessary-libraries)
+  - [Load the Dataset](#load-the-dataset)
+  - [Data Preprocessing](#data-preprocessing)
+  - [Split the Data](#split-the-data)
+  - [Train the Model](#train-the-model)
+  - [Evaluate the Model](#evaluate-the-model)
+  - [Visualize the Results](#visualize-the-results)
+- [Complete Code](#complete-code)
 
-Instructions for installing Python and setting up your environment.
+## Prerequisites
 
-## Usage
+- Python 3.x
+- pip
 
-How to use the examples and resources in this repository.
+## Environment Setup
 
-## Contributing
+# Create a virtual environment
+python -m venv myenv
 
-Guidelines for contributing to this repository.
+# Activate the virtual environment (Linux/MacOS)
+source myenv/bin/activate
 
-## License
+pip install numpy pandas scikit-learn matplotlib
 
-Details about the license.
+
+### Install Python and pip
+
+Ensure that Python and pip are installed on your system. You can download and install Python from the [official Python website](https://www.python.org/downloads/). Pip usually comes installed with Python.
+
+To check if Python and pip are installed, run:
+```bash
+python --version
+pip --version
+
+
